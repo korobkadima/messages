@@ -24,6 +24,9 @@ services:
       - ./frontend:/app
     networks:
       - internal
+    dns:
+      - 8.8.8.8
+      - 4.4.4.4
 
   backend:
     user: 1000:1000
@@ -43,6 +46,9 @@ services:
      - ./backend:/app
     depends_on:
      - backend
+    dns:
+      - 8.8.8.8
+      - 4.4.4.4
 
 networks:
   internal:

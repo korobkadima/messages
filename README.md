@@ -1,8 +1,9 @@
 ### How to install and run
 
-1. git clone 
-2. cd symfony
-3. sudo docker-compose up
-4. localhost:8080 in a browser
+1. mkdir project
+2. cd project
+3. git clone https://github.com/korobkadima/messages.git .
+4. sudo docker-compose up
+5. localhost:8080 in a browser
 
 Any question please message to korobka.dima@gmail.com

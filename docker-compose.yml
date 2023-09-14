@@ -27,11 +27,11 @@ services:
 
   backend:
     image: php:fpm-alpine
-
+    command: "php-fpm -F --allow-to-run-as-root && chown -R www-data:www-data /var/www"
     ports:
       - '9000:9000'
     volumes:
-      - ./backend:/var/www/html
+      - ./backend:/var/www/html:rw
     networks:
       - internal
 

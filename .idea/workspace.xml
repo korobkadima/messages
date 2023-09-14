@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d8723b3-a1bc-49bc-8f63-cb25eb5839f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="4d8723b3-a1bc-49bc-8f63-cb25eb5839f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +163,7 @@
       <workItem from="1694680483104" duration="60000" />
       <workItem from="1694680971460" duration="1125000" />
       <workItem from="1694682147196" duration="1202000" />
-      <workItem from="1694683950670" duration="14000" />
+      <workItem from="1694683950670" duration="260000" />
     </task>
     <servers />
   </component>

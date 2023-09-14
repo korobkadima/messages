@@ -27,6 +27,7 @@ services:
 
   backend:
     image: php:fpm-alpine
+
     ports:
       - '9000:9000'
     volumes:

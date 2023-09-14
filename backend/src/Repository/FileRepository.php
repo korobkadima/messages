@@ -95,9 +95,6 @@ final class FileRepository implements InterfaceRepository
         $messages[] = $this->serializer->normalize($message);
         $messages = json_encode($messages, JSON_PRETTY_PRINT);
 
-        if (!is_writable(self::MESSAGES_FILE)) {
-            chmod(self::MESSAGES_FILE, 0666);
-        }
         file_put_contents(self::MESSAGES_FILE, $messages);
 
         return $message;
